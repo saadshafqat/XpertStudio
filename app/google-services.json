@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1049006250273",
+    "project_id": "xpertstudio-74c29",
+    "storage_bucket": "xpertstudio-74c29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049006250273:android:4d4d3599f68f014acd8660",
+        "android_client_info": {
+          "package_name": "com.example.xpertstudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049006250273-k3ag0dvank1vr11ijq2uiptkte4alkbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xpertstudio",
+            "certificate_hash": "154fe3875fb130570e5459700cac91796f89be9b"
+          }
+        },
+        {
+          "client_id": "1049006250273-o433hdjb978b2r0v55opu957rf0ocjck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmbAiVrAGsgtija2Npe8_0bBZV2kefIw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049006250273-o433hdjb978b2r0v55opu957rf0ocjck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

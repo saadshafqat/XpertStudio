@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendYourPhoto"
+    android:background="@color/backgrounddark"
+    android:gravity="center_vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="8dp"
+        android:overScrollMode="always"
+       >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="@color/black"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img"
+            android:scaleType="fitXY"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            />
+        <TextView
+            android:id="@+id/regID"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="Enter Description for your Required Edit"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/editdsec"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="E.g: Remove Backgroud, Color Correction Etc"
+            android:textColorHint="@color/white"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/selectimg"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Select Image"
+                app:backgroundTint="@color/customRed"
+                android:background="@drawable/roundedcorners"/>
+            <Button
+                android:id="@+id/upload"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedcorners"
+                app:backgroundTint="@color/customRed"
+                android:text="Upload Image"/>
+
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/sendingimg"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundedcorners"
+            app:backgroundTint="@color/purple_500"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:text="Send Your Photo"
+            />
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

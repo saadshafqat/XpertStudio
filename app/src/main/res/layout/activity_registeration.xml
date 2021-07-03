@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    tools:context=".Registeration"
+    android:background="@color/backgrounddark">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+
+        android:layout_margin="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/regID"
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/backgrounddark"
+                android:drawableLeft="@drawable/phonenumber"
+                android:hint="Phone Number (11 Digits)"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <EditText
+                android:id="@+id/regName"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="15dp"
+                android:backgroundTint="@color/backgrounddark"
+                android:drawableLeft="@drawable/fullname"
+                android:hint="Full Name"
+                android:textAlignment="center"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+
+                />
+
+            <EditText
+                android:id="@+id/regPass"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="15dp"
+                android:backgroundTint="@color/backgrounddark"
+                android:drawableLeft="@drawable/lock"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+
+                />
+
+            <Button
+
+                android:id="@+id/RegistrationButton"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginVertical="30dp"
+                android:background="@drawable/roundedcorners"
+                android:text="Register Me"
+                android:textAlignment="center"
+                app:backgroundTint="#D8002C"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Xpert Studio</string>
+    <string name="package_1">(Full HD) 3 Days Complete @65,000PKR</string>
+    <string name="pkgdesc1">->1 Full HD Camera (1920x1080p) (3 Days) \n-> 1 Photographer (3 Days) \n-> 1 Day Drone \n-> 1 Family Indian Album \n-> 1 Shoot Indian Album \n-> 1 USB Full Length Video of Complete Event \n-> Highlight Video complete Event \n-> Couple Video Song 3 Days \n-> Designed Couple Shoot Slide Show</string>
+    <string name="pkgdesc2">->1 DSLR Camera (3 Days) \n-> 2 Photographer (3 Days) \n-> 1 Day Drone \n-> 1 Top Quality Story Book (12p) \n-> 1 Top Quality Shoot Book (12p) \n-> 1 USB Full Length Video of Complete Event \n-> Highlight Video + Couple Song Shoot \n-> Live Shots of Event \n-> Designed Couple Shoot Slide Show \n-> Family Portraits \n-> Outdoor Shoots</string>
+    <string name="pkgdesc3">->2 DSLR Camera (3 Days) \n-> 2 Photographer (3 Days) \n-> 2 Day Drone \n-> 1 Top Quality Story Book (15p) \n-> 1 Top Quality Shoot Book (15p) \n-> 1 USB Full Length Video of Complete Event \n-> Highlight Video + Couple Song Shoot \n-> Live Shots of Event \n-> Designed Couple Shoot Slide Show \n-> Family Portraits \n-> Outdoor Shoots</string>
+    <string name="pkgdesc4">->3 DSLR Camera (3 Days) \n-> 3 Photographer (3 Days) \n-> 3 Day Drone \n-> 1 Top Quality Story Book (20p) \n-> 1 Top Quality Shoot Book (15p) \n-> 2 USB Full Length Video of Complete Event \n-> Highlight Video + Couple Song Shoot \n-> Live Shots of Event \n-> Designed Couple Shoot Slide Show \n-> Family Portraits \n-> Outdoor Shoots</string>
+    <string name="package_2">Standard Package 3 Days Complete @95,000PKR</string>
+    <string name="package_3">Premium Package 3 Days Complete @135,000PKR</string>
+    <string name="package_4">Xpert Premium Package 3 Days Complete @175,000PKR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
